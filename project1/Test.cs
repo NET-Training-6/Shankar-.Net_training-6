@@ -19,7 +19,7 @@ class Test
          }
      */
 
-        String result = ((x % 3 == 0) && (x % 5 == 0)) ? "The number is multiple of 3 and 5" : "The number is not  multiple of 3 and 5";
+        string result = ((x % 3 == 0) && (x % 5 == 0)) ? "The number" + x + "is multiple of 3 and 5" : "The number " + x + " is not  multiple of 3 and 5";
 
         Console.WriteLine(result);
     }
