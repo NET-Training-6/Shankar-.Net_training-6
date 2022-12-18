@@ -1,20 +1,19 @@
-﻿class Test
+﻿using System;
+class Test
 {
 
     public static void Main()
     {
-        Console.WriteLine("Hello world");
-        int x = 89;
-        if (x % 2 == 0)
-        {
-            Console.WriteLine(x +"Even");
-        }
+        Console.Write("Enter an amount:");
+        int amt = int.Parse(Console.ReadLine());
+        Console.Write("Enter a Time period:");
+        int ti = int.Parse(Console.ReadLine());
+        Console.Write("Enter interest interest:");
+         int rate = int.Parse(Console.ReadLine());
+        int si=amt*ti*rate/100;
+        Console.WriteLine("The simple interest is="+si);
+        
 
-        else
-        {
-
-            Console.WriteLine(x+"odd");
-        }
     }
 
 
