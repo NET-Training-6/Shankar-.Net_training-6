@@ -1,6 +1,6 @@
 ﻿using System;
 
-class Test
+class TestDemo
 {
 
     public static void Main()
