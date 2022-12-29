@@ -38,17 +38,7 @@ class Animal
 
     }
 
-    public static void Main()
-    {
-
-        Animal a1 = new Animal();
-        a1.setValue();
-        a1.getValue();
-        Animal a2 = new Animal();
-        a2.setValue();
-        a2.getValue();
-    }
-
+    
 
 
 }

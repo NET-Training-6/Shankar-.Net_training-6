@@ -3,7 +3,7 @@
 class Test
 {
 
-    public static void Main()
+    public static void Display()
     {
 
         Console.Write("Enter an number:");
@@ -45,7 +45,7 @@ class Test
              Console.WriteLine("The number" + x + "is not  multiple of 3 and 5");
          }
      */
-        Console.BackgroundColor = ConsoleColor.Magenta;
+        //Console.BackgroundColor = ConsoleColor.Magenta;
         //  string result = ((x % 3 == 0) && (x % 5 == 0)) ? "The number" + x + "is multiple of 3 and 5" : "The number " + x + " is not  multiple of 3 and 5";
 
         //Console.WriteLine(result);
