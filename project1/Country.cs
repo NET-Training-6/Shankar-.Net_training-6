@@ -5,7 +5,7 @@ class Country
     public double Area { get; set; }
     public long GDP { get; set; }
 
-    public void LearnQueryEmployee()
+    public void LearnCountry()
     {
         List<Country> countries = new List<Country>(){
 
@@ -38,7 +38,7 @@ class TestCountry
     {
 
 Country c1=new Country();
-c1.LearnQueryEmployee();
+c1.LearnCountry();
 
 
     }
